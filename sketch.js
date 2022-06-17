@@ -89,6 +89,7 @@ function setup() {
   //button2.mouseClick(drop);
 
   button2.mouseClicked(drop);
+  button.mouseClicked(remove_rope)
 
   ellipseMode(RADIUS);
 }
@@ -143,6 +144,7 @@ function drop()
   con2.dettach();
   con2 = null; 
 }
+
 
 function remove_rope()
 {
